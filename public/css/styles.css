@@ -1,0 +1,128 @@
+.navbar li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.navbar li:last-child{
+    float: left;
+    border-right: none;
+}
+
+.navbar li:first-child{
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar li:first-child a{
+    padding: 4px 6Px;
+    margin: 0px;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to top,#333, #444);
+    border: 1px solid #999;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #111;
+}
+
+.navbar nav{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;    
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    .navbar ul li:last-child, 
+    .navbar ul li:first-child, 
+    .navbar ul li {float: none;}
+  }
+
+  
+body{
+    background-color: #555;
+    color:#FFF
+}
+
+.content {
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    margin: 16px;
+    margin-top: 32px;
+    
+    padding: 16px;
+    padding-top: 0px;
+    
+    overflow: hidden;
+    background-image: linear-gradient(to top,#333, #444);
+    border: 1px solid #999;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #111;
+}
+
+.site-scan{
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #999;
+     color: #000000;
+     width: 75%;
+     height: 32px;
+     font-size: 24px;
+     padding-left: 10px;
+     box-shadow: 5px 5px 10px #111;
+}
+
+.form-input{
+    text-align: center;
+}
+
+.form-input input[type=submit]{
+    margin: 6px 8px;
+    padding: 6px 8px;
+    font-size: 24px;
+    border-radius: 25px;
+    background-color: #888;
+    border-style: none;
+    box-shadow: 5px 5px 10px #111;
+}
+
+.form-input ul{
+    text-align: center;
+    background-color: #555;
+    border-radius: 25px;
+}
+
+.form-input ul li{
+    display: inline-block;
+    padding: 8px;
+    margin: 8px;
+}
+
+.list-item-element{
+     border: 1px solid #999;
+     border-radius: 16px;
+     margin: 10px;
+     margin-top: 16px;
+     padding-left: 10px;
+     box-shadow: 5px 5px 10px #111;
+}

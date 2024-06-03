@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/scan_website', function () {
+    return view('scan_website');
+});
+
 Route::resource('metric_run_history', MetricHistoryRunController::class)->only([
     'index', 'show', 'create'
 ]);
